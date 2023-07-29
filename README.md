@@ -20,24 +20,24 @@
 
 ### App build Step
 
-- create contact
-  - make input
-  - input handle
-  - single contact add on contack array with state
-- single contact feature
-  - img
-  - name
-  - number
-- show contact
-  - show all contact from state
-  - and also auto update when add new contact
-- filter features
-  - filter by catagory
-  - filter by name with 1st latter
+- create contact 🆗
+  - make input 🆗
+  - input handle 🆗
+  - single contact add on contack array with state 🆗
+- single contact feature 🆗
+  - img 🆗
+  - name 🆗
+  - number 🆗
+- show contact 🆗
+  - show all contact from state 🆗
+  - and also auto update when add new contact 🆗
+- filter features 🆗
+  - filter by catagory 🆗
+  - filter by name with 1st latter 🆗
   - filter with number
-  - filter with email
-- catagory list
-  - All
-  - Home
-  - Office
-  - None
+  - filter with email 🆗
+- catagory list 🆗
+  - All 🆗
+  - Home 🆗
+  - Office 🆗
+  - None 🆗
