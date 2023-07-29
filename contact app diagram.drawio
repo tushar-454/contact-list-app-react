@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2023-07-24T05:37:57.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="49wTwzImA9RQoyfUwijY" version="21.6.5" type="device">
+  <diagram name="Page-1" id="Jylh97NUGNdJCfmaOG3f">
+    <mxGraphModel dx="1687" dy="1763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-4" target="tEeaYuP2EqdNY_YNkZzc-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;State liifting up&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tEeaYuP2EqdNY_YNkZzc-2" vertex="1" connectable="0">
+          <mxGeometry x="0.4931" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;inputState&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tEeaYuP2EqdNY_YNkZzc-2" vertex="1" connectable="0">
+          <mxGeometry x="0.6406" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-4" target="tEeaYuP2EqdNY_YNkZzc-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;contactList { props }&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tEeaYuP2EqdNY_YNkZzc-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.4253" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-4" value="App&lt;br&gt;inputState&lt;br&gt;contactList,setContactList&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;UseState([{},{}])" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="430" y="120" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-5" target="tEeaYuP2EqdNY_YNkZzc-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-5" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Storage&lt;/b&gt;&lt;br&gt;&lt;br&gt;input state&lt;br&gt;inputState&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=28.333333333333407;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-50" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-8" target="tEeaYuP2EqdNY_YNkZzc-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-8" target="tEeaYuP2EqdNY_YNkZzc-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="505" />
+              <mxPoint x="370" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-8" target="tEeaYuP2EqdNY_YNkZzc-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-8" value="InputComponent" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="200" y="425" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-10" target="tEeaYuP2EqdNY_YNkZzc-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;contact { props }&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tEeaYuP2EqdNY_YNkZzc-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2353" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-10" target="tEeaYuP2EqdNY_YNkZzc-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;filterContact {props}&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tEeaYuP2EqdNY_YNkZzc-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.385" y="1" relative="1" as="geometry">
+            <mxPoint x="27" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-10" value="ControllerComponent&lt;br&gt;ContactList { props }&lt;br&gt;&lt;br&gt;filter state&lt;br&gt;&lt;br&gt;here contactList is a array of object" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="435" y="414" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tEeaYuP2EqdNY_YNkZzc-12" target="tEeaYuP2EqdNY_YNkZzc-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;individual contact&amp;nbsp;&lt;br&gt;{ props }&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tEeaYuP2EqdNY_YNkZzc-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.3125" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-12" value="ContactList&lt;br&gt;filterContact array of object by props" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="810" y="425" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Input&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Button&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Contact&amp;nbsp;&lt;br&gt;we got data by props&lt;br&gt;image,number,email&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="755" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tEeaYuP2EqdNY_YNkZzc-30" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Contact list app data structure&amp;nbsp; &amp;nbsp;model&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="225" y="-190" width="630" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

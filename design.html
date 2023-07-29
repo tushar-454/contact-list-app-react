@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Design</title>
+</head>
+
+<body class="dark:bg-gray-800">
+  <div>
+    <h1 class="text-4xl py-10 text-center dark:text-indigo-300">Contact List Application</h1>
+  </div>
+
+  <div class="flex flex-col lg:flex-row gap-20 justify-center items-center">
+    <section class="w-full lg:w-[40rem]">
+      <!-- create a contact stayle -->
+      <div class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+        <form>
+          <div class="flex-1 px-2 mt-4 md:mt-0">
+            <label class="block mb-2 text-xl text-gray-600 dark:text-gray-200">Full Name</label>
+            <input type="text" placeholder="John "
+              class="block w-full text-lg px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+          </div>
+
+          <div class="flex-1 px-2 mt-4 md:mt-0">
+            <label class="block mb-2 text-xl text-gray-600 dark:text-gray-200">Email address</label>
+            <input type="email" placeholder="johndoe@example.com"
+              class="block w-full text-lg px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+          </div>
+
+
+          <div class="flex-1 px-2 mt-4 md:mt-0">
+            <label class="block mb-2 text-xl text-gray-600 dark:text-gray-200">Number</label>
+            <input type="tel" placeholder="+971234453434"
+              class="block w-full text-lg px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+          </div>
+
+          <div class="flex-1 px-2 mt-4 md:mt-0">
+            <label class="block mb-2 text-xl text-gray-600 dark:text-gray-200">Image Url</label>
+            <input type="url" placeholder="https://www.images.com/profile"
+              class="block w-full text-lg px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+          </div>
+
+          <div class="flex-1 px-2 mt-4 md:mt-0">
+            <label class="block mb-2 text-xl text-gray-600 dark:text-gray-200">Select Catagory</label>
+            <select
+              class="block w-full text-lg px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border outline-none border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40">
+              <option value="">Select a Catagory</option>
+              <option value="personal">Personal</option>
+              <option value="home">Home</option>
+              <option value="mobile">Mobile</option>
+              <option value="office">Office</option>
+            </select>
+          </div>
+
+          <button
+            class="w-full px-6 py-3 mt-4 text-xl font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+            Create a contact
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact control and showing part  -->
+    <section class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+      <!-- filter control contact list  -->
+      <div>
+        <h1 class="text-4xl py-10 text-center dark:text-indigo-300">Filter & Search Your Contact</h1>
+        <div class="px-4 mt-4 md:mt-0">
+          <div
+            class="w-full flex justify-center overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse dark:bg-gray-900 dark:border-gray-700 dark:divide-gray-700">
+            <button
+              class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
+              All
+            </button>
+
+            <button
+              class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
+              Personal
+            </button>
+
+            <button
+              class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
+              Home
+            </button>
+
+            <button
+              class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
+              Office
+            </button>
+          </div>
+          <div>
+            <input type="search" placeholder="search your contact"
+              class="block w-full text-lg px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+          </div>
+        </div>
+      </div>
+      <!-- list of contacts  -->
+      <div>
+        <h1 class="text-4xl py-5 text-center dark:text-indigo-300">Contacts</h1>
+        <div class="flex-1 px-4 my-4 md:mt-0 h-[450px] overflow-y-scroll">
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+
+          <div class="mt-4 py-2 border-b border-gray-300">
+            <div class="flex items-center">
+              <div class="flex gap-4 items-center">
+                <img class="object-cover h-20 rounded-full"
+                  src="https://images.unsplash.com/photo-1586287011575-a23134f797f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60"
+                  alt="Avatar">
+                <div>
+                  <p class="mx-2 font-semibold text-xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">Jone
+                    Doe</p>
+                  <p class="mx-2 font-semibold text-2xl text-gray-700 dark:text-gray-200" tabindex="0" role="link">
+                    01821802216</p>
+                </div>
+              </div>
+              <span class="mx-1 text-md text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
