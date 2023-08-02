@@ -5,10 +5,12 @@ import Title from './Component/UI/Title';
 
 function App() {
   const [contacts, setContacts] = useState([]);
-  const getContact = (contact) => {
+  const getContact = (contact, setInputState, inputStateInit) => {
     if (!contact.name || !contact.email || !contact.number) {
       alert('Fillup all box with right data');
-      return false;
+      return;
+    } else {
+      setInputState(inputStateInit);
     }
     setContacts([].concat(contacts, contact));
     console.log(contacts);

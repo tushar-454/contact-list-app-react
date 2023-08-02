@@ -15,8 +15,8 @@ function InputComponent({ getContact }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    getContact(inputState);
-    setInputState(inputStateInit);
+    getContact(inputState, setInputState, inputStateInit);
+    // setInputState(inputStateInit);
   };
 
   // handle input state button click
